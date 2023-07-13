@@ -1,0 +1,9 @@
+.ProfilePic{
+    text-align: center;
+}
+.ProfilePic img{
+    height: 120px;
+    width: 120px;
+    border: 1px dotted #96f0f0;
+    border-radius: 50%;
+}
