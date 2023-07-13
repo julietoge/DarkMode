@@ -69,7 +69,7 @@ const SkillsTools = () => {
             subtitle={"Currently working on:"}
           />
           <div className="current-work-content">
-            Improving my skills in, and understanding of vannnllia JavaScript and React. Also, external libraries: Material UI, Tailwind, and React-BootSrap and having fun with #100DaysOfCode building & animating via CSS. <a href="http://" target="_blank" rel="noopener noreferrer">Follow my Journery Here</a>
+            Improving my skills in, and understanding of vannnllia JavaScript and React. Also, external libraries: Material UI, Tailwind, and React-BootSrap and having fun with #100DaysOfCode building & animating via CSS. <a href="https://www.linkedin.com/in/ogechi-juliet-uhegbu" target="_blank" rel="noopener noreferrer">Follow my Journery Here</a>
           </div>
         </div>
       </div>
