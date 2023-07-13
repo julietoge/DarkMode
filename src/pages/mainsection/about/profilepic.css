@@ -3,9 +3,10 @@
     
 }
 .ProfilePic img{
-    height: 120px;
-    width: 120px;
-   object-fit: contain;
+    height: 182px;
+    width: 182px;
+   object-fit: cover;
     border: 1px dotted #96f0f0;
     border-radius: 50%;
+    text-align: center;
 }
