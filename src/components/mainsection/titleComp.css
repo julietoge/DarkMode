@@ -1,0 +1,14 @@
+.title h1{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-decoration: underline;
+  }
+  .title p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    font-style: italic;
+    font-family: Blackadder;
+  }

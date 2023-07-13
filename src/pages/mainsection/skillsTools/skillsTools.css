@@ -1,0 +1,22 @@
+.skills-Tools-wrapper{
+    width: 90%;
+    margin: 10rem auto 0;
+    color: #dffcfc;
+}
+.skills-Tools-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.technologies, .external-libraries, .Softskills{
+display: flex;
+gap: 2rem;
+align-items: center;
+justify-content: center;
+margin-top: 28px;
+}
+.Softskills ul{
+    display: flex;
+gap: 2rem;
+}

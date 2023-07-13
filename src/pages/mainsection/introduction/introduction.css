@@ -1,0 +1,41 @@
+.introduction-conntainer {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 8px 0;
+}
+
+.intro-text {
+  color: #dffcfc;
+}
+
+.intro-text h2,
+.intro-text h1,
+.intro-text h4 {
+  line-height: 6rem;
+}
+
+.intro-text h2 {
+  font-style: italic;
+  font-family: Blackadder;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.intro-text h1 {
+  font-weight: 400;
+  font-size: 6rem;
+}
+
+.intro-text h4 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.intro-text p {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}

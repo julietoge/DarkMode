@@ -1,0 +1,11 @@
+.socialMediaHandles-Wrapper{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    line-height: 4rem;
+}
+.socialMediaHandles-Wrapper{
+    text-decoration: none;
+}

@@ -1,0 +1,11 @@
+.haspac-wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  @media (max-width: 1000px) {
+  .haspac-wrapper {
+      grid-template-columns: repeat(3, 1fr);
+      line-height: 2rem;
+    }
+  }
+  

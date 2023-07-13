@@ -1,0 +1,11 @@
+.haspac {
+    margin: 0 12px;
+    font-size: 1rem;
+    font-weight: 500;
+    font-style: normal;
+  }
+  @media (max-width: 1000px) {
+    .haspac {
+      margin: 0;
+    }
+  }
