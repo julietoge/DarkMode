@@ -2,7 +2,6 @@ import React from 'react';
 import ProjectComp from '../../../components/mainsection/Project-comp';
 import Title from '../../../components/mainsection/titleComp';
 import './projects.css'
-import '../../../images/message-logo.png'
 
 
 const projectsData = [
