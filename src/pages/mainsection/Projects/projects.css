@@ -1,16 +1,17 @@
-.my-projects-wrapper{
+ .my-projects-wrapper{
     width: 90%;
-    margin: 0 auto;
+    margin: 10rem auto 6rem;
     color: #1a1a11;
-    margin-top: 6rem;
     
-  }
-  .projects {
+  } 
+  .my-projects{
     display: flex;
-    justify-content: space-around;
-    line-height: 4rem;
-    /* text-align: justify;
-    font-weight: 500;
-    font-size: 1rem;
-    line-height: 1.5rem; */
+    justify-content: center;
+    flex-wrap: wrap;
+
+
   }
+  .projects{
+    margin: 2rem 4rem;
+  }
+  

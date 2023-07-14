@@ -6,6 +6,7 @@
     gap: 2rem;
     line-height: 4rem;
 }
-.socialMediaHandles-Wrapper{
-    text-decoration: none;
+.socialMediaHandles-Wrapper img{
+    width: 34px;
+    height: 34px;
 }

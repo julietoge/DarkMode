@@ -3,7 +3,7 @@ import "./mainsection.css";
 import Introduction from "./introduction/introduction";
 import About from "./about/about";
 import SkillsTools from "./skillsTools/skillsTools";
-import Projects from "./Projects/projects";
+import Projects from "./Projects/projects-data";
 import Contact from "./contact/contact";
 
 const Mainsection = () => {
