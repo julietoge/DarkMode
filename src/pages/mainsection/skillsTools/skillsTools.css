@@ -1,8 +1,11 @@
 .skills-Tools-wrapper {
   width: 90%;
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 8rem;
   color: #dffcfc;
+  border-bottom: 1px dotted #dffcfc;
+  border-top: 1px dotted #dffcfc;
+  padding: 12px 0;
 }
 .technologies,
 .external-libraries {
