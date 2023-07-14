@@ -5,7 +5,7 @@ const ContactForm = () => {
   return (
     
       <div className="form-wrapper">
-        <form action="" method="post">
+        <form >
           <div className="fullname">
             <label htmlFor=""></label>
             <input type="text" name="" id="" placeholder="Full Name" />
