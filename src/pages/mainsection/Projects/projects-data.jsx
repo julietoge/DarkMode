@@ -20,7 +20,7 @@ const projectsData = [
   {
     title: 'StopWatch',
     imageUrl: '../../../images/message-logo.png',
-    description: 'Tempokeeper stopwatch is a web-based application that allows users to measure elapsed time accurately. The stopwatch provides accurate timekeeping functionality, allowing users to measure elapsed time precisely. It also includes a digital clock displaying the current time for reference. Users can start, stop, and reset the stopwatch as needed to track different activities or events.',
+    description: 'Tempokeeper stopwatch is a web-based application that allows users to measure elapsed time accurately; The stopwatch provides accurate timekeeping functionality, allowing users to measure elapsed time precisely. It also includes a digital clock displaying the current time for reference. Users can start, stop, and reset the stopwatch as needed to track different activities or events.',
     webUrl: 'https://stirring-stopwatch.netlify.app/',
   },
   // Add more projects here
