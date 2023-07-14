@@ -1,22 +1,49 @@
-.skills-Tools-wrapper{
-    width: 90%;
-    margin: 10rem auto 0;
-    color: #dffcfc;
+.skills-Tools-wrapper {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 4rem;
+  color: #dffcfc;
 }
-.skills-Tools-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.technologies,
+.external-libraries {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
-.technologies, .external-libraries, .Softskills{
-display: flex;
-gap: 2rem;
-align-items: center;
-justify-content: center;
-margin-top: 28px;
+.external-libraries-wrapper,
+.Softskills-wrapper {
+  margin: 2rem 0;
 }
-.Softskills ul{
-    display: flex;
-gap: 2rem;
+.external-libraries-wrapper h2,
+.Softskills-wrapper h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.Softskills,
+.current-work-content {
+  text-align: justify;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.current-work h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.current-work-content a {
+    background: #dffcfc;
+    text-decoration: none;
+    color: #005e5e;
+    font-size: 1rem;
+    padding: 6px;
+    border-radius: 4px;
+}
+.current-work-content a:hover{
+    text-decoration: underline;
 }

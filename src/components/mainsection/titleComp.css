@@ -3,6 +3,9 @@
     font-weight: 500;
     font-size: 2rem;
     line-height: 3rem;
+  }
+  .title h1:hover{
+
     text-decoration: underline;
   }
   .title p{

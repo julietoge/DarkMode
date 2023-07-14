@@ -1,0 +1,12 @@
+.skillsLogo{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    margin: 18px;
+}
+.skillsLogo img{
+    width: 124px;
+    height: 94px;
+}

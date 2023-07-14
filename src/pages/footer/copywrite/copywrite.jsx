@@ -4,7 +4,7 @@ import './copywrite.css'
 const CopyWrite = () => {
   return (
     <div className='copywrite'>
-        &copy;copywrite, all right reserved. Build by UHEGBU, Ogechi Juliet
+        &copy;copywrite, all right reserved. Designed and Built by UHEGBU, Ogechi Juliet
     </div>
   )
 }

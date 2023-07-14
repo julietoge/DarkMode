@@ -1,9 +1,9 @@
 import React from 'react'
 import './projects.css'
 import Title from '../../../components/mainsection/titleComp'
-import OcrProject from './ocr-project'
-import StopWatchProject from './stop-watch-project'
-import PortfolioProject from './portfolio-project'
+import OcrProject from '../Projects/ocr/ocr-project'
+import StopWatchProject from '../Projects/stopWatch/stop-watch-project'
+import PortfolioProject from '../Projects/portfolio/portfolio-project'
 
 const Projects = () => {
   return (
