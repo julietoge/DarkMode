@@ -89,7 +89,7 @@ const SkillsTools = () => {
             <strong>React-BootSrap</strong>, <strong>Material UI</strong>,{" "}
             <strong>Tailwind</strong>,and and having fun with{" "}
             <strong>#100DaysOfCode</strong> building & animating via{" "}
-            <strong>CSS</strong> .{" "}
+            <strong>CSS</strong> . <br />
             <a
               href="https://www.linkedin.com/in/ogechi-juliet-uhegbu"
               target="_blank"

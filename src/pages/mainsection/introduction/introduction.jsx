@@ -1,14 +1,22 @@
 import React from "react";
 import Translate3d from "./theGlobe";
 import "./introduction.css";
+import Typewriter from "./typewriter";
+import HelloEmoji from "../../../components/mainsection/HelloEmoji";
 
 const Introduction = () => {
   return (
     <div className="introduction-conntainer">
       <div className="intro-text">
-        <h2>Hello!</h2>
+        <h2>
+          Hello!
+          <HelloEmoji/>
+          </h2>
+
         <h1>I'm Ogechi</h1>
-        <h4>I'm a passionate Frontend Developer/Engineer</h4>
+        <h4>
+          <Typewriter text="I'm a passionate Frontend Developer" />
+        </h4>
         <p>
           I specialize in creating visually appealing and interactive web
           experiences that combine functionality with user-centric with a strong

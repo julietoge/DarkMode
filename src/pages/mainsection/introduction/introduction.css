@@ -21,6 +21,9 @@
   font-family: Blackadder;
   font-weight: 400;
   font-size: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .intro-text h1 {
@@ -31,6 +34,7 @@
 .intro-text h4 {
   font-weight: 400;
   font-size: 2rem;
+  color: #8df4f4;
 }
 
 .intro-text p {
