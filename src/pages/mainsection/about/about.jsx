@@ -80,7 +80,7 @@ const About = () => {
           </div>
           <div>
             <button>
-              <a href="http://">DownLoad Resume</a>
+              <a href="https://drive.google.com/drive/mobile/folders/1LvDwWtRQ1Txc1qZYmfjZquioGoqs0aNq" target="_blank" rel="noopener noreferrer">DownLoad Resume</a>
             </button>
           </div>
         </div>
