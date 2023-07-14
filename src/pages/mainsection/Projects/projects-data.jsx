@@ -10,7 +10,7 @@ const projectsData = [
     title: 'SwiftLexi OCR',
     imageUrl: 'https://ogechi-juliet-uhegbu.netlify.app/',
     description: 'This is the description of SwiftLexi OCR',
-    webUrl: 'path/to/project2.png',
+    webUrl: 'https://swiftlexi-ocr.netlify.app/',
   },
   {
     title: 'My Portfolio',
@@ -22,7 +22,7 @@ const projectsData = [
     title: 'StopWatch',
     imageUrl: '../../../images/message-logo.png',
     description: 'This is the description of StopWatch',
-    webUrl: 'https://ogechi-juliet-uhegbu.netlify.app/',
+    webUrl: 'https://stirring-stopwatch.netlify.app/',
   },
   // Add more projects here
 ];
