@@ -20,8 +20,8 @@ const projectsData = [
   {
     title: 'StopWatch',
     imageUrl: '../../../images/message-logo.png',
-    description: 'This is the description of StopWatch',
-    webUrl: 'https://tempokeeper.netlify.app/',
+    description: 'This is the description     webUrl: 'https://stirring-stopwatch.netlify.app/',of StopWatch',
+
   },
   // Add more projects here
 ];
