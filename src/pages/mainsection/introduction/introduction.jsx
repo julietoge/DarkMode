@@ -1,33 +1,32 @@
 import React from "react";
-import Translate3d from "./theGlobe";
+import Translate3d from "../../../components/globe/theGlobe";
+import HelloEmoji from "../../../components/helloEmoji/helloEmoji";
+import Profession from "../../../components/profession-text/profession";
+import Description from "../../../components/summary/description";
+import Name from "../../../components/Name-intro/name";
 import "./introduction.css";
-import Typewriter from "./typewriter";
-import HelloEmoji from "../../../components/mainsection/HelloEmoji";
 
 const Introduction = () => {
   return (
-    <div className="introduction-conntainer">
-      <div className="intro-text">
-        <h2>
-          Hello!
-          <HelloEmoji/>
-          </h2>
+    <div className="introduction-container">
 
-        <h1>I'm Ogechi</h1>
-        <h4>
-          <Typewriter text="I'm a passionate Frontend Developer" />
-        </h4>
-        <p>
-          I specialize in creating visually appealing and interactive web
-          experiences that combine functionality with user-centric with a strong
-          commitment. I have a deep love for technology and a genuine curiosity
-          for exploring the latest trends and advancements in frontend
-          development.
-        </p>
+      <div className="introduction-txt">
+        <div>
+          <HelloEmoji />
+        </div>
+        <div>
+          <Name />
+        </div>
+        <div>
+          <Profession />
+        </div>
+        <div>
+          <Description />
+        </div>
       </div>
       <div className="Translate3d-img">
         <Translate3d />
-      </div>
+    </div>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 .waving img {
-    width: 68px;
-    height: 38px;
+    width: 72px;
+    height: 42px;
 }
 
 .waving {
@@ -10,9 +10,16 @@
 }
 @keyframes wave {
     from {
-      transform: rotate(1deg);
+      transform: rotate(0deg);
     }
     to {
       transform: rotate(10deg);
     }
+  }
+
+  @media (max-width: 1000px) {
+    .waving img {
+      width: 52px;
+      height: 28px;
+  }
   }

@@ -1,8 +1,8 @@
 .about-container {
-  width: 90%;
+  /* width: 90%; */
   margin: 0 auto;
   color: #1a1a11;
-  margin-top: 4rem;
+  /* margin-top: 4rem; */
 }
 
 .about-body {
@@ -13,7 +13,7 @@
 }
 .about-body button {
   cursor: pointer;
-  background: #dffcfc;
+  background: #3498db;
   border: none;
   border-radius: 4px;
   padding: 6px;
@@ -21,7 +21,7 @@
 }
 .about-body button a {
   text-decoration: none;
-  color: #005e5e;
+  color: #ffffff;
   font-weight: 600;
   font-size: 1rem;
 }

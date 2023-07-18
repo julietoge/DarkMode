@@ -9,11 +9,13 @@ import Contact from "./contact/contact";
 const Mainsection = () => {
   return (
     <div className="Mainsection-wrapper">
-      <Introduction />
-      <About />
-      <SkillsTools />
-      <Projects />
-      <Contact />
+        <Introduction className="introduction" />
+        <div className="mainsection">
+          <About className="about" />
+          <SkillsTools className="skills-tools" />
+          <Projects className="projects" />
+          <Contact className="contact" />
+      </div>
     </div>
   );
 };

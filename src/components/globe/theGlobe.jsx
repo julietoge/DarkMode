@@ -1,6 +1,6 @@
 import React from 'react'
 import './theGlobe.css'
-import Globe from '../../../images/globe13.png'
+import Globe from '../../images/globe13.png'
 
 const Translate3d = () => {
   return (

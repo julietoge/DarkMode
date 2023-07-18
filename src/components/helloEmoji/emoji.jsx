@@ -1,8 +1,8 @@
 import React from 'react'
 import Waving from '../../images/hello1.png'
-import './helloEmoji.css'
+import './emoji.css'
 
-const HelloEmoji = () => {
+const Emoji = () => {
   return (
     <div className='waving'>
         <img src={Waving} alt="" />
@@ -10,4 +10,4 @@ const HelloEmoji = () => {
   )
 }
 
-export default HelloEmoji;
+export default Emoji

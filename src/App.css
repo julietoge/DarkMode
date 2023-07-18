@@ -1,9 +1,11 @@
-*{
+*, html{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  background-color: #005e5e;
+
+.App{
+  background-color: #e6f2fb;
   font-family: 'Poppins', sans-serif;
+  max-width: 100%;
 }

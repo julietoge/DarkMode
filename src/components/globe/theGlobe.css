@@ -12,3 +12,10 @@
       transform: rotate(360deg);
     }
   }
+  
+  @media (max-width: 1000px) {
+    .rotate-image {
+      width: 98px;
+      height: 98px;
+  }
+  }

@@ -3,13 +3,13 @@
     padding: 8px;
   }
   form{
-    border: 0.2px solid #96f0f0;
+    border: 0.2px solid #ffffff;
     border-radius: 4px;
     width: 50%;
     margin: 0 auto;
     padding: 8px;
-    box-shadow: 0px 0px 10px #c9dbdb;
-    background: transparent;
+    box-shadow: 0px 0px 10px #808080;
+    background: #3498db;
   }
   .form-wrapper input, textarea{
     font-size: 16px;
@@ -24,11 +24,11 @@
   }
   .btn-wrapper button{
     padding: 4px;
-    color: #005e5e;
+    color: #3498db;
     font-size: 16px;
     font-weight: 500;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    background: #dffcfc;
+    background: #ffffff;
   }

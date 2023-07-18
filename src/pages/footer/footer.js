@@ -1,15 +1,13 @@
 import React from "react";
-import SectionsLink from "./Link-to-sections/sectionslink";
+import NavBar from "../../components/Nav-Bar/NavBar";
 import "./footer.css";
 import CopyWrite from "./copywrite/copywrite";
 
 const Footer = () => {
   return (
     <div className="footer-container">
-      {/* <div className="footer-content"> */}
-        <SectionsLink />
+        <NavBar />
         <CopyWrite />
-      {/* </div> */}
     </div>
   );
 };

@@ -1,11 +1,11 @@
 .skills-Tools-wrapper {
-  width: 90%;
+  /* width: 90%; */
   margin: 0 auto;
-  margin-top: 8rem;
-  color: #dffcfc;
-  border-bottom: 1px dotted #dffcfc;
-  border-top: 1px dotted #dffcfc;
-  padding: 12px 0;
+  /* margin-top: 8rem; */
+  /* color: #dffcfc; */
+  border-bottom: 1px dotted #3498db;
+  border-top: 1px dotted #3498db;
+  /* padding: 12px 0; */
 }
 .technologies,
 .external-libraries {
@@ -40,9 +40,9 @@
   font-size: 1.2rem;
 }
 .current-work-content a {
-    background: #dffcfc;
+    background: #3498db;
     text-decoration: none;
-    color: #005e5e;
+    color: #ffffff;
     font-size: 1rem;
     padding: 6px;
     border-radius: 4px;

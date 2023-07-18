@@ -1,10 +1,7 @@
 .contact-wrapper{
-    width: 90%;
     margin: 0 auto;
     color: #1a1a11;
-    margin-top: 6rem;
     text-align: center;
-    color: #dffcfc;
-    border-bottom: 1px dotted #dffcfc;
-    border-top: 1px dotted #dffcfc;
+    border-bottom: 1px dotted #3498db;
+    border-top: 1px dotted #3498db;
   }
