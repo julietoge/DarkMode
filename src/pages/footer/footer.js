@@ -6,7 +6,7 @@ import CopyWrite from "./copywrite/copywrite";
 const Footer = () => {
   return (
     <div className="footer-container">
-        <NavBar />
+        <NavBar className="nav-bar" />
         <CopyWrite />
     </div>
   );

@@ -22,7 +22,7 @@
   .introduction-container {
     flex-direction: column-reverse;
     justify-content: center;
-    padding: 40vh 0 20vh 0px;
+    padding: 60vh 0 20vh 0px;
   }
   .introduction-txt {
     margin: 0 auto;

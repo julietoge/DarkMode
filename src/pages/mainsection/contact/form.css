@@ -32,3 +32,8 @@
     cursor: pointer;
     background: #ffffff;
   }
+  @media (max-width:1000px) {
+    form{
+      width: 100%;
+    }
+  }

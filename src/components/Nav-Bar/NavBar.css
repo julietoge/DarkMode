@@ -1,0 +1,11 @@
+.haspac-wrapper{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 1000px) {
+    .haspac-wrapper{
+        flex-direction: column;
+        border-top: 1px solid #ffffffff ;
+        border-bottom:  1px solid #ffffffff ;
+    }
+}
