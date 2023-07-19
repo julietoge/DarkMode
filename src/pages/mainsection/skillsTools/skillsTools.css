@@ -1,11 +1,8 @@
 .skills-Tools-wrapper {
-  /* width: 90%; */
-  margin: 0 auto;
-  /* margin-top: 8rem; */
-  /* color: #dffcfc; */
+  margin: 38px auto;
   border-bottom: 1px dotted #3498db;
   border-top: 1px dotted #3498db;
-  /* padding: 12px 0; */
+  padding: 18px 0;
 }
 .technologies,
 .external-libraries {
@@ -24,7 +21,7 @@
 .Softskills-wrapper h2 {
   text-align: center;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-decoration: underline;
 }
 
@@ -32,7 +29,7 @@
 .current-work-content {
   text-align: justify;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5rem;
 }
 .current-work h2 {
@@ -49,4 +46,5 @@
 }
 .current-work-content a:hover{
     text-decoration: underline;
+    color: #800080;
 }

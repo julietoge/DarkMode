@@ -6,18 +6,12 @@
   padding: 40vh 0 20vh 28px;
   width: 100%;
 }
-/* .introduction-wrappper {
-  margin: 0 auto;
-} */
 .introduction-txt {
   display: flex;
   flex-direction: column;
   line-height: 5rem;
   width: 50%;
 }
-/* .Translate3d-img{
-  flex-shrink: 3;
-} */
 @media (max-width: 1000px) {
   .introduction-container {
     flex-direction: column-reverse;
@@ -26,6 +20,7 @@
   }
   .introduction-txt {
     margin: 0 auto;
+    text-align: justify;
     line-height: 4rem;
     width: 95%;
   }

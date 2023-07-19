@@ -1,17 +1,36 @@
- .my-projects-wrapper{
-    /* width: 90%; */
-    /* margin: 10rem auto 6rem; */
-    color: #1a1a11;
-    
-  } 
-  .my-projects{
+
+   .my-projects-wrapper{
+    margin: 38px 0;
+   }
+   .my-projects{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-
-
-  }
-  .projects{
-    margin: 2rem 4rem;
-  }
-  
+    row-gap: 2rem;
+    padding: 4px 0;
+   }
+   .projects{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+   }
+   .project-info .View{
+    padding: 6px;
+    background: #3498db;
+    cursor: pointer;
+    text-align: center;
+  border: none;
+  border-radius: 4px;
+   }
+   .project-info a{
+    text-decoration: none;
+    color: #ffffff;
+   }
+   .project-info a:hover{
+    text-decoration: underline;
+    color: #800080;
+    
+   }
