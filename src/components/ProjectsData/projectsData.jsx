@@ -1,11 +1,11 @@
-import OCR from '../../images/Screenshot_OCR.jpg'
+import ocr from '../../images/Screenshot_OCR.jpg'
 import Portfolio from '../../images/Capture-portfolio.png'
 import Stopwatch from '../../images/Screenshot_Stopwatch.jpg'
 
 const ProjectsData = [
   {
     id: 1,
-    image: OCR,
+    image: ocr,
     title: "SwiftLexi OCR",
     description: "A project showcasing Optical Character Recognition technology.",
     tools: "HTML, CSS, ReactJS, Third Party Libraries: Tesseractjs",
