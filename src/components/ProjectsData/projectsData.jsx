@@ -1,6 +1,6 @@
-import ocr from '../../images/Screenshot_OCR.jpg'
+import Stopwatch from '../../images/Screenshot_OCR.jpg'
 import Portfolio from '../../images/Capture-portfolio.PNG'
-import Stopwatch from '../../images/Screenshot_Stopwatch.jpg'
+import ocr from '../../images/Screenshot_Stopwatch.jpg'
 
 const ProjectsData = [
   {
