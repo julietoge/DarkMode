@@ -10,22 +10,20 @@ const Projects = () => {
     <div className="my-projects-wrapper">
       <Title title={"My Projects"} />
       <div className="my-projects">
-        {ProjectsData.map((project, id) => (
-          <div key={id} className="projects">
-            <img src={`../../../images/${project.image}`} alt={project.title} />
+        {ProjectsData.map((project) => (
+          <div key={project.id} className="projects">
+            <img src={project.image} alt={project.title} />
             <div className="project-info">
               <h3>{project.title}</h3>
               <div>{project.description}</div>
               <div>Tools: {project.tools}</div>
-              <div className="View">
                 <a
-                  href={project.views}
+                  href={project.views} className="View"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   View
                 </a>
-              </div>
             </div>
           </div>
         ))}

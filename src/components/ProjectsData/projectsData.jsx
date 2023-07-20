@@ -1,9 +1,11 @@
-
+import OCR from '../../images/Screenshot_OCR.jpg'
+import Portfolio from '../../images/Capture-portfolio.png'
+import Stopwatch from '../../images/Screenshot_Stopwatch.jpg'
 
 const ProjectsData = [
   {
     id: 1,
-    image: "Capture-ocr.PNG",
+    image: OCR,
     title: "SwiftLexi OCR",
     description: "A project showcasing Optical Character Recognition technology.",
     tools: "HTML, CSS, ReactJS, Third Party Libraries: Tesseractjs",
@@ -11,7 +13,7 @@ const ProjectsData = [
   },
   {
     id: 2,
-    image: "Capture-portfolio.PNG",
+    image: Portfolio,
     title: "My Portfolio",
     description: "A professional project demonstrating advanced skills.",
     tools: "HTML, CSS, ReactJS",
@@ -19,8 +21,8 @@ const ProjectsData = [
   },
   {
     id: 3,
-    image: "",
-    title: "Stopwatch Project",
+    image: Stopwatch,
+    title: "TempoKeeper",
     description: "A simple stopwatch application built using JavaScript.",
     tools: "HTML, CSS, JavaScript",
     views: "https://tempokeeper.netlify.app/",
