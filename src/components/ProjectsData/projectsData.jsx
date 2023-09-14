@@ -13,6 +13,15 @@ const ProjectsData = [
   },
   {
     id: 2,
+    image: ocr,
+    title: "",
+    description: "A project showcasing Optical Character Recognition technology.",
+    tools: "HTML, CSS, ReactJS, Third Party Libraries: Tesseractjs",
+    views: "https:/
+  }
+  ,
+  {
+    id: 3,
     image: Portfolio,
     title: "My Portfolio",
     description: "A professional project demonstrating advanced skills.",
@@ -20,7 +29,7 @@ const ProjectsData = [
     views: "https://ogechi-juliet-uhegbu.netlify.app/",
   },
   {
-    id: 3,
+    id: 4,
     image: Stopwatch,
     title: "TempoKeeper",
     description: "A simple stopwatch application built using JavaScript.",
