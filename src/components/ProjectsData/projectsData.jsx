@@ -6,10 +6,10 @@ const ProjectsData = [
   {
     id: 1,
     image: ocr,
-    title: "SwiftLexi OCR",
+    title: "OCRify",
     description: "A project showcasing Optical Character Recognition technology.",
     tools: "HTML, CSS, ReactJS, Third Party Libraries: Tesseractjs",
-    views: "https://swiftlexi-ocr.netlify.app/",
+    views: "https://ocrify.netlify.app/",
   },
   {
     id: 2,
