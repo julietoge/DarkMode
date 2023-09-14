@@ -17,7 +17,7 @@ const ProjectsData = [
     title: "",
     description: "A project showcasing Optical Character Recognition technology.",
     tools: "HTML, CSS, ReactJS, Third Party Libraries: Tesseractjs",
-    views: "https:/
+    views: "https://julietoge.github.io/TEAM-IX-Quiz-app/"
   }
   ,
   {
