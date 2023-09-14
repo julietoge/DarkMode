@@ -14,9 +14,9 @@ const ProjectsData = [
   {
     id: 2,
     image: ocr,
-    title: "",
-    description: "A project showcasing Optical Character Recognition technology.",
-    tools: "HTML, CSS, ReactJS, Third Party Libraries: Tesseractjs",
+    title: "Quiz app",
+    description: "2023 Nigeria Current Affairs Quiz!",
+    tools: "HTML, CSS, JavaScript",
     views: "https://julietoge.github.io/TEAM-IX-Quiz-app/"
   }
   ,
