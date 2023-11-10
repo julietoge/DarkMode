@@ -1,5 +1,12 @@
-.auth {
+.container {
   max-width: 100%;
+  /* height: 100vh; */
+}
+.container-dark{
+color: #000;
+}
+.container-light{
+color: rgb(216, 216, 216);
 }
 .header-wrapper {
   color: #000;
