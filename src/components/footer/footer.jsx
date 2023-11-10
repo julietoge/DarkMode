@@ -1,13 +1,14 @@
 import React from "react";
-import NavBar from "../../components/Nav-Bar/NavBar";
+import NavBar from "../nav-bar/NavBar";
 import "./footer.css";
-import CopyWrite from "./copywrite/copywrite";
 
 const Footer = () => {
   return (
     <div className="footer-container">
         <NavBar className="nav-bar" />
-        <CopyWrite />
+        <div className='copyright'>
+        &copy;copyright, all right reserved. Designed and Built by UHEGBU, Ogechi Juliet
+    </div>
     </div>
   );
 };

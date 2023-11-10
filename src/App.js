@@ -1,17 +1,19 @@
 import React from "react";
 import "./App.css";
-import Header from "./pages/header/header";
-import Mainsection from "./pages/mainsection/mainsection";
-import Footer from "./pages/footer/footer";
 import { Routes, Route } from 'react-router-dom'
+import Welcome from "./pages/welcome/Welcome";
+import Contact from "./pages/contact/Contact";
+import Projects from "./pages/projects-correct/Projects";
+import About from "./pages/about/About";
+
 const App = () => {
   return (
-    <div className="App">
-      <Header className="header" />
-      <Mainsection className="mainSection" />
-      <Footer className="footer" />
-
-    </div>
+    <Routes className="App">
+      <Route path="/" element={<Welcome/>} />
+      <Route path="/projects" element={<Projects/>} />
+      <Route path="/about" element={<About/>} />
+      <Route path="/contact" element={<Contact/>} />
+    </Routes>
   );
 };
 

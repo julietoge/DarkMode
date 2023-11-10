@@ -1,15 +1,14 @@
 import React from "react";
-import NavBarComp from "./NavBarcomp";
+import { Link } from "react-router-dom";
 import "./NavBar.css";
 
 const NavBar = () => {
   return (
-    <div className="haspac-wrapper">
-      <NavBarComp pages={"Home"} />
-      <NavBarComp pages={"About"} />
-      <NavBarComp pages={"Skills_&_Tools"} />
-      <NavBarComp pages={"Projects"} />
-      <NavBarComp pages={"Contact"} />
+    <div className="navBar">
+      <Link to='/'>Welcome</Link>
+      <Link to='/projects'>Projects</Link>
+      <Link to='/about'>About</Link>
+      <Link to='/contact'>Contact</Link>
     </div>
   );
 };

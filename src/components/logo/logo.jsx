@@ -4,7 +4,7 @@ import './logo.css'
 const Logo = () => {
   return (
     <div className="logo">
-      <h1>O</h1>
+      <h1>OGE</h1>
     </div>
   );
 };
