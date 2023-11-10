@@ -1,15 +1,13 @@
-import React from "react";
-import Title from "../../../components/mainsection/titleComp";
-import "./projects.css";
-import ProjectsData from "../../../components/ProjectsData/projectsData";
-
+import React from 'react'
+import Auth from '../../components/authLayout/auth'
+import ProjectsData from "./projectsData";
 
 
 const Projects = () => {
   return (
-    <div className="my-projects-wrapper">
-      <Title title={"My Projects"} />
-      <div className="my-projects">
+    <Auth>
+My Projects
+<div className="my-projects">
         {ProjectsData.map((project) => (
           <div key={project.id} className="projects">
             <img src={project.image} alt={project.title} />
@@ -28,8 +26,8 @@ const Projects = () => {
           </div>
         ))}
       </div>
-    </div>
-  );
-};
+    </Auth>
+  )
+}
 
-export default Projects;
+export default Projects

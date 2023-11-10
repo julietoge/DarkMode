@@ -1,0 +1,38 @@
+.auth {
+  max-width: 100%;
+}
+.header-wrapper {
+  color: #000;
+  background-color: #779ecb;
+  width: 100%;
+  padding: 20px 0;
+}
+.header-wrapper .header {
+  width: 90%;
+  margin: 0 auto;
+}
+.header-wrapper .header a {
+  color: #000;
+  margin: 8px;
+}
+
+.children-wrapper {
+  background-color: #f2f6ff;
+  color: #000;
+  width: 100%;
+  padding: 20px 0;
+}
+.children {
+  width: 90%;
+  margin: 0 auto;
+}
+.footer-wrapper {
+    background: #808080;
+    color: #fff;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .footer-wrapper .footer {
+    width: 90%;
+    margin: 0 auto;
+  }

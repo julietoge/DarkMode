@@ -1,15 +1,27 @@
-import React from 'react'
-import Footer from '../footer/footer'
-import Header from '../header/Header'
+import React from "react";
+import Footer from "../footer/footer";
+import Header from "../header/Header";
+import "./auth.css";
 
-const Auth = ({children}) => {
+const Auth = ({ children }) => {
   return (
-    <div className='auth'>
-        <Header/>
-        <div className='children'>{children}</div>
-        <Footer/>
-    </div>
-  )
-}
+    <div className="auth">
+      <div className="header-wrapper">
+        <div className="header">
+          <Header />
+        </div>
+      </div>
 
-export default Auth
+      <div className="children-wrapper">
+        <div className="children">{children}</div>
+      </div>
+      <div className="footer-wrapper">
+        <div className="footer">
+          <Footer />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Auth;

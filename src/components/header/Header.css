@@ -1,13 +1,6 @@
-.Header {
+.header-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  color:  #000000;
-  background-color: #779ecb;
-}
-
-.Header  a{
-color: #000000;
-padding: 8px;
 }
