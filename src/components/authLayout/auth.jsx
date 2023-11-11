@@ -1,32 +1,34 @@
 import React from "react";
-import { useContext } from "react";
-import { DarkModeContext } from "../context/DarkModeContext";
+import { useTheme } from "../context/ThemeContext";
 import Footer from "../footer/footer";
 import Header from "../header/Header";
 import "./auth.css";
 
-const Auth = ({ children }) => {
-
-  const darkMode = useContext(DarkModeContext)
+const AuthLayout = ({ children }) => {
+  const { isDarkMode, toggleTheme } = useTheme();
 
   return (
-    // "auth"
-      <div className={darkMode ? `container container-dark` : `container container-light`}>
-        <div className="header-wrapper">
-          <div className="header">
-            <Header />
-          </div>
+    <div className={`layout-wrapper ${isDarkMode ? "dark" : "light"}`}>
+      <header>
+        <div className="header-content">
+          <Header />
+          <button className="btn" onClick={toggleTheme}>
+            {isDarkMode ? "Light Mode" : "Dark Mode"}
+          </button>
         </div>
-        <div className="children-wrapper">
-          <div className="children">{children}</div>
+      </header>
+
+      <main>
+        <div className="children">{children}</div>
+      </main>
+
+      <footer>
+        <div className="footer-content">
+          <Footer />
         </div>
-        <div className="footer-wrapper">
-          <div className="footer">
-            <Footer />
-          </div>
-        </div>
-      </div>
+      </footer>
+    </div>
   );
 };
 
-export default Auth;
+export default AuthLayout;

@@ -5,10 +5,10 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <div className="navBar">
-      <Link to='/'>Welcome</Link>
-      <Link to='/projects'>Projects</Link>
-      <Link to='/about'>About</Link>
-      <Link to='/contact'>Contact</Link>
+      <Link to="/">Welcome</Link>
+      <Link to="/projects">Projects</Link>
+      <Link to="/about">About</Link>
+      <Link to="/contact">Contact</Link>
     </div>
   );
 };

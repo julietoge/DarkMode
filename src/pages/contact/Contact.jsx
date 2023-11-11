@@ -1,9 +1,9 @@
 import React from "react";
-import Auth from "../../components/authLayout/auth";
+import AuthLayout from "../../components/authLayout/auth";
 
 const Contact = () => {
   return (
-    <Auth>
+    <AuthLayout>
       <div className="title">
         <h1>Contact Me</h1>
         <p>Say Hello!</p>
@@ -14,7 +14,7 @@ const Contact = () => {
         <div className="">watsApp</div>
         <div className="">GitHub</div>
       </div>
-    </Auth>
+    </AuthLayout>
   );
 };
 

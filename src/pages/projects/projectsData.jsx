@@ -7,7 +7,8 @@ const ProjectsData = [
     id: 1,
     // image: ocr,
     title: "OCRify",
-    description: "A project showcasing Optical Character Recognition technology.",
+    description:
+      "A project showcasing Optical Character Recognition technology.",
     tools: "HTML, CSS, ReactJS, Third Party Libraries: Tesseractjs",
     views: "https://ocrify.netlify.app/",
   },
@@ -17,9 +18,8 @@ const ProjectsData = [
     title: "Quiz app",
     description: "2023 Nigeria Current Affairs Quiz!",
     tools: "HTML, CSS, JavaScript",
-    views: "https://julietoge.github.io/TEAM-IX-Quiz-app/"
-  }
-  ,
+    views: "https://julietoge.github.io/TEAM-IX-Quiz-app/",
+  },
   {
     id: 3,
     // image: Portfolio,
