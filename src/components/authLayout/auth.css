@@ -56,10 +56,10 @@ padding: 2px;
 /* light mode on footer */
 .layout-wrapper.light footer  {
   color: #1F2021;
-  background-color: #f1f1ff;
+  background-color: #779ecb;
 }
 /* dark mode on footer */
 .layout-wrapper.dark footer  {
   color: #fff;
-  background-color: #808080;
+  background-color: #2E2E34;
 }
